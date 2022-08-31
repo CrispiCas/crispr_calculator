@@ -9,6 +9,7 @@ struct Args{
     value2: f32,
 }
 
+// main funktion
 fn main(){
     let args = Args::parse();
     let a = args.value1;
